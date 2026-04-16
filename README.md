@@ -84,3 +84,8 @@ Real News ✅
 
 ---
 
+
+🚀 Live Demo
+
+🔗 http://fakenews-hyper7.streamlit.app/
+
