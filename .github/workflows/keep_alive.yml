@@ -1,0 +1,12 @@
+name: Keep Streamlit Alive
+
+on:
+  schedule:
+    - cron: '*/25 * * * *'  # runs every 25 minutes
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping app
+        run: curl -X GET https://fakenews-hyper7.streamlit.app
